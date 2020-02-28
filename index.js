@@ -4,6 +4,7 @@ var getReadme = require('./utils/generateMarkdown');
 var getApi = require('./utils/api');
 
 
+
 // const questions = [
 
 // ];
@@ -70,10 +71,13 @@ inquirer
 ])
 
 
-.then(function(response){
-    console.log(response.title);
+.then(async function(response){
+    // console.log(response.title);
+    var gitData = await getApi(response.username)
+    console.log(response)
+    console.log(gitData);
 
-    fs.writeFile("newReadme.md", getReadme(response), function(err){
+    fs.writeFile("newReadme.md", getReadme(response, gitData), function(err){
         if (err){
             throw err
         }

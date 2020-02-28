@@ -1,17 +1,17 @@
 //api call
 
-const axios = require("axios");
+const axios = require('axios');
 
-// const api = {
- function getUser(username) {
+ var gitResponse;
 
-    axios.get(`https://api.github.com/users${username}`)
+ function getUser(username){
+ gitResponse = axios.get(`https://api.github.com/users/${username}`)
     .then(function(response) {
-      console.log(response);
-      console.log(response.data.avatar_url);
-      console.log(response.email);
+      // console.log(response);
+      // console.log(response.data.avatar_url);
+      // console.log(response.email);
 
-      return response.
+      return  response;
 
 
     })
@@ -19,8 +19,10 @@ const axios = require("axios");
     .catch(function(error){
       console.log(error);
     })
+    console.log(gitResponse)
+    return gitResponse;
     
   }
-// };
+
 
 module.exports = getUser;

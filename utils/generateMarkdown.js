@@ -1,12 +1,12 @@
 
 
-function generateMarkdown(data) {
+function generateMarkdown(data, git) {
   return `# ${data.title}
 
   # Description
   ${data.description}
   
-  
+  ${git.data.avatar_url}
   
   
   # Table of content
