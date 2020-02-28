@@ -1,10 +1,7 @@
-
-
-function generateMarkdown(data) {
-  return `# ${data.title}
+# the me
 
   # Description
-  ${data.description}
+  jhkjds
   
   
   
@@ -22,31 +19,27 @@ function generateMarkdown(data) {
   8. Email
   
   # Installation
-  ${data.install}
+  undefined
   
   
   # Usage
-  ${data.usage}
+  kjdskjk
   
   # Lincense
-  ${data.license} 
+  jkmjds 
   
   # Contribution
-  ${data.contribution}
+  jsdj
   
   # Tests
-  ${data.tests}
+  dsjkds
   
   # Questions
-  ${data.questions}
+  no
   
   # Author
-  ${data.author}
+  undefined
   
   # Email
-  ${data.email}
+  undefined
 
-`;
-}
-
-module.exports = generateMarkdown;
