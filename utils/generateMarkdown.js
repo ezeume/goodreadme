@@ -6,7 +6,8 @@ function generateMarkdown(data, git) {
   # Description
   ${data.description}
   
-  ${git.data.avatar_url}
+  
+  ![Avatar](${git.data.avatar_url})
   
   
   # Table of content
@@ -24,12 +25,12 @@ function generateMarkdown(data, git) {
   # Installation
   ${data.install}
   
-  
   # Usage
   ${data.usage}
   
   # Lincense
   ${data.license} 
+  ![Licenseshield](https://img.shields.io/badge/license-${data.license}-success)
   
   # Contribution
   ${data.contribution}

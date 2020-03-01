@@ -49,24 +49,24 @@ inquirer
     },
     {
         type: "input",
-        message: "Did you run any tests?",
+        message: "Did you run tests?",
         name: "tests"
     },
     {
         type: "input",
-        message: "ask questions?",
+        message: "Questions?",
         name: "questions"
     },
-    // {
-    //     type: "input",
-    //     message: "What is your email?",
-    //     name: "email"
-    // },
-    // {
-    //     type: "input",
-    //     message: "add a pic?",
-    //     name: "picture"
-    // },
+    {
+        type: "input",
+        message: "What is your email",
+        name: "email"
+    },
+    {
+        type: "input",
+        message: "Who is the Author",
+        name: "author"
+    },
     
 ])
 
@@ -74,6 +74,7 @@ inquirer
 .then(async function(response){
     // console.log(response.title);
     var gitData = await getApi(response.username)
+    // var gitData = await getApi(response.email)
     console.log(response)
     console.log(gitData);
 

@@ -12,8 +12,6 @@ const axios = require('axios');
       // console.log(response.email);
 
       return  response;
-
-
     })
 
     .catch(function(error){
@@ -23,6 +21,14 @@ const axios = require('axios');
     return gitResponse;
     
   }
+
+  // function getUser(email){
+  //   gitResponse = axios.get(`https://api.github.com/users/${email}`)
+  //   .then(functon(response) {
+  //     console.log(response);
+  //   return response;
+  //   })
+  // }
 
 
 module.exports = getUser;

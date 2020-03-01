@@ -1,9 +1,10 @@
 # readme
 
   # Description
-  this is readme
+  this is it
   
-  https://avatars1.githubusercontent.com/u/57860736?v=4
+  
+  ![Avatar](https://avatars1.githubusercontent.com/u/57860736?v=4)
   
   
   # Table of content
@@ -21,25 +22,25 @@
   # Installation
   undefined
   
-  
   # Usage
-  
+  yes
   
   # Lincense
-   
+  mit 
+  ![Licenseshield](https://img.shields.io/badge/license-mit-success)
   
   # Contribution
-  
+  yes
   
   # Tests
-  
+  yes
   
   # Questions
-  
+  yes
   
   # Author
-  undefined
+  author
   
   # Email
-  undefined
+  email
 
