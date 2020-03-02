@@ -1,7 +1,7 @@
 # readme
 
   # Description
-  this is it
+  this is a readme generator
   
   
   ![Avatar](https://avatars1.githubusercontent.com/u/57860736?v=4)
@@ -23,11 +23,11 @@
   undefined
   
   # Usage
-  yes
+  utiuyoiu
   
   # Lincense
-  mit 
-  ![Licenseshield](https://img.shields.io/badge/license-mit-success)
+  yes 
+  ![Licenseshield](https://img.shields.io/badge/license-yes-success)
   
   # Contribution
   yes
@@ -39,8 +39,8 @@
   yes
   
   # Author
-  author
+  nelson
   
   # Email
-  email
+  mit
 
